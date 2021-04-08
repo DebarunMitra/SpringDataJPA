@@ -70,8 +70,7 @@ public class Students {
     )
     private Integer age;
 
-    public Students(Long id, String firstName, String lastName, String email, Integer age) {
-        this.id = id;
+    public Students(String firstName, String lastName, String email, Integer age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
